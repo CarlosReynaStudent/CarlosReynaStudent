@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <title>Home | Linux customization</title>
+        <title>Home | Linux customization</title>
 
     <!-- Adding favicon -->
-    <link rel="icon" href="icons/favicon.png">
+    <link rel="icon" href="assets/icons/favicon.png">
 
     <!-- Adding css -->
     <link rel="stylesheet" href="css/style.css">
@@ -20,11 +20,54 @@
 
 </head>
 <body>
-    <main>
-        <header>
-            <h1 class="title">!Personalizacion en linux!</h1>
-        </header>
-            <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum dolores sed voluptatum, iste quod assumenda molestias ad dolore at tempore natus enim odio. Amet ab exercitationem placeat magni laboriosam repellat.</p>
+    <header class="header">
+        <div class="logo">
+            CR | HOME
+        </div>
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item">
+                    <a class="nav__link" href="desktops.html">DESKTOPS</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="apps.html">APPS</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="editor.html">EDITOR</a>
+                </li>
+                <li class="nav__item">
+                    <a class="nav__link" href="linux.html">WHAT IS LINUX</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="main"> 
+
+        <section class="content">
+            <h1 class="title">
+                YOUR AWESOME </br>LINUX </br>DESKTOP
+            </h1>
+            <p class="text">
+            Learn how to create a beautiful and useful Linux desktop to make your computer complete yours.
+            </p>
+        </section>
+
+        <section class="desktop-container">
+            <img 
+                class="desktop" 
+                src="assets/desktops/macos-desktop.png" 
+                alt="Macos Desktop Theme">
+            <img 
+                class="desktop" 
+                src="assets/desktops/cloudy-desktop.png" 
+                alt="Cloudy Desktop Theme">
+            <img 
+                class="desktop" 
+                src="assets/desktops/liquid-desktop.png" 
+                alt="Liquid Desktop Theme">
+        </section>
     </main>
+
 </body>
 </html>

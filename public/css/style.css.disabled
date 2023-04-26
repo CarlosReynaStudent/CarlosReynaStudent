@@ -1,0 +1,31 @@
+body {
+    margin: 0;
+    font-family: 'Inter';
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: ;
+    width: 100%;
+    padding-left: 1em;
+    padding-left: 1em;
+    background-color: #060518;
+}
+
+.title {
+    font-family: 'JetBrains Mono';
+    font-weight: 800;
+    font-size: 1.8rem;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+}
+
+.menu {
+    display: flex;
+    align-items: inherit;
+}
